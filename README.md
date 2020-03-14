@@ -1,5 +1,6 @@
 # Ruby-Shells
-~Totally not mine. Thanks to secjohn
+~Totally not mine. Thanks to secjohn`
+
 These are very simple shells, normal and reverse I wrote in ruby to help in pen testing.  Simply you can use them to get a working shell on a box that won't be killed by AV, use it to kill AV then use it to upgrade to a meterperter session or whatever you like.  You can compile them to an executable file to run on systems with no ruby.
 
 ## revshell.rb
