@@ -34,3 +34,6 @@ ls /etc/*.conf
 doesn't work.
 
 Stay in the shell and don't try to go into another program.  If you vi a file say, it will run and show you the file, but you will never get out of vi and you lost your shell.
+
+### ToDo
+~ Make the change directory command work properly
